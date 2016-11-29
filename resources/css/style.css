@@ -191,3 +191,66 @@ header {
     margin-top: 50px;
 }
 
+/* ------------------------------------- */
+/* Pictures */
+/* ------------------------------------- */
+
+.section-pictures {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color:  #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%; 
+    height: auto;
+    
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    -ms-transition: opacity 0.5s, -ms-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -ms-transform 0.5s;
+    
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -ms-transform 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: translateZ(0) scale(1.10);
+    -ms-transform: translateZ(0) scale(1.10);
+    transform: translateZ(0) scale(1.10);
+}
+
+/* ------------------------------------- */
+/* Menu */
+/* ------------------------------------- */
+
+.section-menu {
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;    
+}

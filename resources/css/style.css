@@ -49,11 +49,27 @@ h1 {
 h2 {
     margin-top: 0;
     margin-bottom: 20px;
+    margin-top: 100px;
     color: #fff;
     font-size: 170%;
+    font-weight: 300;
     word-spacing: 4px;
     letter-spacing: 1px;
     text-align: left;
+}
+
+p {
+    font-size: 100%;
+    font-weight: 300;
+    color: #7b7a7a;
+}
+
+.long-copy {
+    line-height: 150%;
+    letter-spacing: .5px; 
+    width: 55%;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
 }
 
 /* ------------------------------------- */
@@ -64,7 +80,7 @@ h2 {
     height: 100%;
     width: auto;
     float: left;
-    margin-top: 55px;
+    margin-top: 20px;
 }
 
 .main-nav {
@@ -97,14 +113,10 @@ h2 {
 /* ------------------------------------- */
 
 header {
-    /*
+    
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
     background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
-    */
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hummus.jpg);
-    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hummus.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hummus.jpg);
     
     background-size: cover;
     background-position: center;
@@ -124,9 +136,58 @@ header {
 }
 
 /* ------------------------------------- */
-/* Location */
+/* Quote */
 /* ------------------------------------- */
 
-.section-location {
-    
+.section-quote {
+    background: #000;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 40vh;
 }
+
+.section-quote h2 {
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section-quote p {
+    margin: 0 auto;
+    padding: 0;
+    font-style: italic;
+    text-align: center;
+}
+
+/* ------------------------------------- */
+/* About Us */
+/* ------------------------------------- */
+
+.section-aboutus {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hummus.jpg);
+    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hummus.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hummus.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;    
+}
+
+.section-aboutus .long-copy {
+    margin-top: 125px;
+    color: #fff;
+}
+
+.section-aboutus .long-copy::after {
+    display: block;
+    height: 2px;
+    content: " ";
+    width: 25%;
+    margin: 0 auto;
+    border-bottom: 2px solid #fff;
+    margin-top: 50px;
+}
+

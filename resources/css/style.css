@@ -49,8 +49,8 @@ h1 {
 h2 {
     margin-top: 0;
     margin-bottom: 20px;
-    margin-top: 100px;
-    color: #fff;
+    margin-top: 50px;
+    color: #555;
     font-size: 170%;
     font-weight: 300;
     word-spacing: 4px;
@@ -61,10 +61,11 @@ h2 {
 p {
     font-size: 100%;
     font-weight: 300;
-    color: #7b7a7a;
+    color: #a3a3a3;
 }
 
 .long-copy {
+    color: #555;
     line-height: 150%;
     letter-spacing: .5px; 
     width: 55%;
@@ -105,7 +106,7 @@ p {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    color: #b5b5b5;
+    color: #a3a3a3;
 }
 
 /* ------------------------------------- */
@@ -113,10 +114,9 @@ p {
 /* ------------------------------------- */
 
 header {
-    
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
-    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
+    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
     
     background-size: cover;
     background-position: center;
@@ -136,49 +136,20 @@ header {
 }
 
 /* ------------------------------------- */
-/* Quote */
-/* ------------------------------------- */
-
-.section-quote {
-    background: #000;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 40vh;
-}
-
-.section-quote h2 {
-    font-weight: 300;
-    font-style: italic;
-    text-align: center;
-    margin-top: 80px;
-}
-
-.section-quote p {
-    margin: 0 auto;
-    padding: 0;
-    font-style: italic;
-    text-align: center;
-}
-
-/* ------------------------------------- */
 /* About Us */
 /* ------------------------------------- */
 
 .section-aboutus {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hummus.jpg);
-    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hummus.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url(../img/hummus.jpg);
-    
+    background-color: #fff;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    //height: 70vh;
     background-attachment: fixed;    
 }
 
 .section-aboutus .long-copy {
-    margin-top: 125px;
-    color: #fff;
+    margin-top: 50px;
+    color: #555;
 }
 
 .section-aboutus .long-copy::after {
@@ -187,8 +158,9 @@ header {
     content: " ";
     width: 25%;
     margin: 0 auto;
-    border-bottom: 2px solid #fff;
-    margin-top: 50px;
+    border-bottom: 2px solid #555;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 /* ------------------------------------- */
@@ -197,6 +169,7 @@ header {
 
 .section-pictures {
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 .meals-showcase {
@@ -244,13 +217,79 @@ header {
 }
 
 /* ------------------------------------- */
+/* Location */
+/* ------------------------------------- */
+
+.section-location {
+    background-color: #f4f4f4;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;    
+}
+
+
+/* ------------------------------------- */
+/* Quote */
+/* ------------------------------------- */
+
+.section-quote {
+    background: #fff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 40vh;
+}
+
+.section-quote h2 {
+    color: #a3a3a3;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section-quote p {
+    margin: 0 auto;
+    padding: 0;
+    font-style: italic;
+    text-align: center;
+}
+
+/* ------------------------------------- */
 /* Menu */
 /* ------------------------------------- */
 
 .section-menu {
-    background-color: #000;
+    background-color: #f4f4f4;
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;    
+    
+    padding: 0;
+}
+
+.menu-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.menu-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.menu-photo {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    //background-color:  #000;    
+}
+
+.menu-photo img {
+    padding-top: 25px;
+    width: 70%;
+    height: auto;
 }

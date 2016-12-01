@@ -227,13 +227,51 @@ header {
     background-attachment: fixed;    
 }
 
+.location a:link,
+.location a:visited {
+    text-decoration: none;
+}
+
+.location a p:hover,
+.location a p:active {
+    color: #555;
+}
+
+.section-location li {
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.section-location .location {
+    float: right;
+    text-align: right;
+}
+
+.section-location .hours {
+    float: left;
+}
+
+.section-location iframe {
+    width: 100%;
+}
+
+.section-location .map {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /* ------------------------------------- */
 /* Quote */
 /* ------------------------------------- */
 
 .section-quote {
-    background: #fff;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/hummus.jpg);
+    background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/hummus.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/hummus.jpg);    
+    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -241,7 +279,7 @@ header {
 }
 
 .section-quote h2 {
-    color: #a3a3a3;
+    color: #fff;
     font-weight: 300;
     font-style: italic;
     text-align: center;
@@ -249,6 +287,7 @@ header {
 }
 
 .section-quote p {
+    color: #fff;
     margin: 0 auto;
     padding: 0;
     font-style: italic;

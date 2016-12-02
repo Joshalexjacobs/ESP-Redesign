@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -35,6 +36,12 @@ html {
     margin: 0 auto; 
 }
 
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;    
+}
+
 /* Headers */
 
 h1 {
@@ -57,6 +64,18 @@ h2 {
     letter-spacing: 1px;
     text-align: left;
 }
+
+h3 {
+    color: #555;
+    font-size: 130%;
+    font-weight: 300;
+    word-spacing: 4px;
+    letter-spacing: 1px;    
+    text-align: left;
+    
+}
+
+/* Paragraphs */
 
 p {
     font-size: 100%;
@@ -140,7 +159,7 @@ header {
 /* ------------------------------------- */
 
 .section-aboutus {
-    background-color: #fff;
+    background-color: #f4f4f4;
     background-size: cover;
     background-position: center;
     //height: 70vh;
@@ -302,33 +321,13 @@ header {
     background-color: #f4f4f4;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    background-attachment: fixed;    
-    
-    padding: 0;
+    background-attachment: fixed;
 }
 
-.menu-showcase {
-    list-style: none;
-    width: 100%;
-}
-
-.menu-showcase li {
+.section-menu .menu-items li {
+    text-decoration: none;
     display: block;
-    float: left;
-    width: 25%;
+    margin: 15px;
+    margin-left: 0;
 }
 
-.menu-photo {
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    overflow: hidden;
-    //background-color:  #000;    
-}
-
-.menu-photo img {
-    padding-top: 25px;
-    width: 70%;
-    height: auto;
-}

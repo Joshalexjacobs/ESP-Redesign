@@ -393,3 +393,23 @@ footer a i:hover,
 footer a i:active {
     color: #d6d6d6;
 }
+
+footer .disclaimer {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 60%;
+}
+
+footer .disclaimer a:link,
+footer .disclaimer a:visited {
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+footer .disclaimer a:hover,
+footer .disclaimer a:active {
+    text-decoration: none;
+    color: #d6d6d6;
+}

@@ -75,6 +75,29 @@ h3 {
     
 }
 
+/* Icons */
+
+.icon-big {
+    font-size: 150%;
+    display: block;
+    color: #a3a3a3;
+    margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /* secrets to align text and icons */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
 /* Paragraphs */
 
 p {
@@ -351,4 +374,22 @@ footer {
 
 footer p {
     font-size: 80%;
+}
+
+footer ul li {
+    margin: 20px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+footer a:link,
+footer a:visited {
+    text-decoration: none;
+}
+
+footer a i:hover,
+footer a i:active {
+    color: #d6d6d6;
 }

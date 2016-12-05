@@ -1,0 +1,57 @@
+/* 0 - 480 px width*/
+@media only screen and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    section { 
+        padding: 20px 0; 
+    }
+    
+    .col {
+        display: block;
+        float:left;
+        margin: 0 auto;
+    }   
+    
+    /* ------------------------------------- */
+    /* Nav */
+    /* ------------------------------------- */
+
+    .logo {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+    
+    /* ------------------------------------- */
+    /* Header */
+    /* ------------------------------------- */
+
+    header {
+        background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
+        background-image: -ms-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(../img/gyros.jpg);
+        
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+    }
+
+    .hero-text-box {
+        position: absolute;
+        width: auto;
+        padding-bottom: 1px; /* fix for firefox button cutoff bug */
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }    
+}

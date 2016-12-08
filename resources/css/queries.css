@@ -573,7 +573,7 @@
     header {
         background-attachment: none;
         
-        position: fixed;
+        background-size: contain;
         top: 0;
         left: 0;
         min-width: 100%;

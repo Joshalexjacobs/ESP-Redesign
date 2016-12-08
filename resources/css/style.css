@@ -124,6 +124,7 @@ p {
     width: auto;
     float: left;
     margin-top: 20px;
+    padding-bottom: 25px;
 }
 
 .main-nav {
@@ -163,7 +164,6 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    min-height: 800px;
     background-attachment: fixed;
 }
 

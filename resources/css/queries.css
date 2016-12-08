@@ -1,4 +1,509 @@
-/* 0 - 480 px width*/
+/* --------------------------------*/
+/* 1024 - 1070px width             */
+/* --------------------------------*/
+
+@media only screen and (max-width: 1170px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    section { 
+        padding: 20px 0; 
+    }
+    
+    .col {
+        display: block;
+        float:left;
+        margin: 0 auto;
+    }   
+    
+    /* Headers */
+    
+    h2 {
+        margin-top: 20px;
+        font-size: 150%;
+        font-weight: 400;
+        text-align: center;
+    }    
+    
+    h3 {
+        font-size: 110%;
+        font-weight: 400;
+    }
+    
+    /* Paragraphs */
+
+    p {
+        font-size: 85%;
+        font-weight: 400;
+        color: #a3a3a3;
+    }
+
+    .long-copy {
+        color: #555;
+        line-height: 150%;
+        letter-spacing: 1px; 
+        width: 79%;
+        margin-left: 10.5%;
+        margin-right: 10.5%;
+        text-align:     center;
+    }
+    
+    /* ------------------------------------- */
+    /* Nav */
+    /* ------------------------------------- */
+
+    .logo {
+        margin: 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+    
+    /* ------------------------------------- */
+    /* Header */
+    /* ------------------------------------- */
+
+    header {
+        background-attachment: none;
+    }
+    
+    .hero-text-box {
+        width: auto;
+    }  
+    
+    /* ------------------------------------- */
+    /* About Us */
+    /* ------------------------------------- */
+
+    .section-aboutus .long-copy::after {
+        width: 30%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    /* ------------------------------------- */
+    /* Pictures */
+    /* ------------------------------------- */
+
+    .meals-showcase {
+        //list-style: none;
+        //width: 100%;
+    }
+
+    .meals-showcase li {
+        //float: left;
+        //width: 100%;
+    }    
+    
+    /* ------------------------------------- */
+    /* Menu */
+    /* ------------------------------------- */
+
+    .section-menu p {
+        text-align: center;
+    }
+    
+    .section-menu h3 {
+        text-align: center;
+    }
+    
+    .section-menu .menu-items li {
+        margin-right: 0;
+    }
+    /* ------------------------------------- */
+    /* Quote */
+    /* ------------------------------------- */
+
+    .section-quote {
+        height: auto;
+    }
+
+    .section-quote h2 {
+        margin-top: 0;
+    }
+    
+    /* ------------------------------------- */
+    /* Location */
+    /* ------------------------------------- */
+
+    .section-location .location,
+    .section-location .hours {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .section-location .hours {
+        padding-bottom: 20px;
+    }
+    
+    .section-location iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .section-location .map {
+        padding-bottom: 0;
+    }
+    
+    /* ------------------------------------- */
+    /* Footer */
+    /* ------------------------------------- */
+
+    footer .disclaimer {
+        width: 75%;
+    }
+    
+    footer .row .col {
+        margin: 0 auto;
+    }     
+}
+
+
+/* --------------------------------*/
+/* 768 - 1023 px width              */
+/* --------------------------------*/
+
+@media only screen and (max-width: 1023px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    section { 
+        padding: 20px 0; 
+    }
+    
+    .col {
+        display: block;
+        float:left;
+        margin: 0 auto;
+    }   
+    
+    /* Headers */
+    
+    h2 {
+        margin-top: 20px;
+        font-size: 150%;
+        font-weight: 400;
+        text-align: center;
+    }    
+    
+    h3 {
+        font-size: 110%;
+        font-weight: 400;
+    }
+    
+    /* Paragraphs */
+
+    p {
+        font-size: 85%;
+        font-weight: 400;
+        color: #a3a3a3;
+    }
+
+    .long-copy {
+        color: #555;
+        line-height: 150%;
+        letter-spacing: 1px; 
+        width: 79%;
+        margin-left: 10.5%;
+        margin-right: 10.5%;
+        text-align:     center;
+    }
+    
+    /* ------------------------------------- */
+    /* Nav */
+    /* ------------------------------------- */
+
+    .logo {
+        margin: 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+    
+    /* ------------------------------------- */
+    /* Header */
+    /* ------------------------------------- */
+
+    header {
+        background-attachment: none;
+    }
+    
+    .hero-text-box {
+        width: auto;
+    }  
+    
+    /* ------------------------------------- */
+    /* About Us */
+    /* ------------------------------------- */
+
+    .section-aboutus .long-copy::after {
+        width: 30%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    /* ------------------------------------- */
+    /* Pictures */
+    /* ------------------------------------- */
+
+    .meals-showcase {
+        //list-style: none;
+        //width: 100%;
+    }
+
+    .meals-showcase li {
+        //float: left;
+        //width: 100%;
+    }    
+    
+    /* ------------------------------------- */
+    /* Menu */
+    /* ------------------------------------- */
+
+    .section-menu p {
+        text-align: center;
+    }
+    
+    .section-menu h3 {
+        text-align: center;
+    }
+    
+    .section-menu .menu-items li {
+        margin-right: 0;
+    }
+    /* ------------------------------------- */
+    /* Quote */
+    /* ------------------------------------- */
+
+    .section-quote {
+        height: auto;
+    }
+
+    .section-quote h2 {
+        margin-top: 0;
+    }
+    
+    /* ------------------------------------- */
+    /* Location */
+    /* ------------------------------------- */
+
+    .section-location .location,
+    .section-location .hours {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .section-location .hours {
+        padding-bottom: 20px;
+    }
+    
+    .section-location iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    .section-location .map {
+        padding-bottom: 0;
+    }
+    
+    /* ------------------------------------- */
+    /* Footer */
+    /* ------------------------------------- */
+
+    footer .disclaimer {
+        width: 75%;
+    }
+    
+    footer .row .col {
+        margin: 0 auto;
+    }    
+}
+
+/* --------------------------------*/
+/* 481 - 767 px width              */
+/* --------------------------------*/
+
+@media only screen and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    section { 
+        padding: 20px 0; 
+    }
+    
+    .col {
+        display: block;
+        float:left;
+        margin: 0 auto;
+    }   
+    
+    /* Headers */
+    
+    h2 {
+        margin-top: 20px;
+        font-size: 150%;
+        font-weight: 400;
+        text-align: center;
+    }    
+    
+    h3 {
+        font-size: 110%;
+        font-weight: 400;
+    }
+    
+    /* Paragraphs */
+
+    p {
+        font-size: 85%;
+        font-weight: 400;
+        color: #a3a3a3;
+    }
+
+    .long-copy {
+        color: #555;
+        line-height: 150%;
+        letter-spacing: 1px; 
+        width: 79%;
+        margin-left: 10.5%;
+        margin-right: 10.5%;
+        text-align: center;
+    }
+    
+    /* ------------------------------------- */
+    /* Nav */
+    /* ------------------------------------- */
+
+    .logo {
+        //height: 100%;
+        //width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        float: none;
+        display: block;
+    }
+
+    .main-nav {
+        display: none;
+    }
+    
+    /* ------------------------------------- */
+    /* Header */
+    /* ------------------------------------- */
+
+    header {
+        background-attachment: none;
+    }
+    
+    header h1 {
+        width: 125%;
+    }
+    
+    .hero-text-box {
+        width: auto;
+    }  
+    
+    /* ------------------------------------- */
+    /* About Us */
+    /* ------------------------------------- */
+
+    .section-aboutus .long-copy::after {
+        width: 50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    /* ------------------------------------- */
+    /* Pictures */
+    /* ------------------------------------- */
+
+    .meals-showcase {
+        list-style: none;
+        width: 100%;
+    }
+
+    .meals-showcase li {
+        float: left;
+        width: 100%;
+    }    
+    
+    /* ------------------------------------- */
+    /* Menu */
+    /* ------------------------------------- */
+
+    .section-menu p {
+        text-align: center;
+    }
+    
+    .section-menu h3 {
+        text-align: center;
+    }
+    
+    .section-menu .menu-items li {
+        margin-right: 0;
+    }
+    /* ------------------------------------- */
+    /* Quote */
+    /* ------------------------------------- */
+
+    .section-quote {
+        height: auto;
+    }
+
+    .section-quote h2 {
+        margin-top: 0;
+    }
+    
+    /* ------------------------------------- */
+    /* Location */
+    /* ------------------------------------- */
+
+    .section-location li {
+        display: block;
+        padding-bottom: 10px;
+        margin: 0 auto;
+    }
+
+    .section-location .location,
+    .section-location .hours {
+        float: none;
+        text-align: center;
+    }
+    
+    .section-location .hours {
+        padding-bottom: 20px;
+    }
+    
+    .section-location iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    .section-location .map {
+        padding-bottom: 0;
+    }
+    
+    /* ------------------------------------- */
+    /* Footer */
+    /* ------------------------------------- */
+
+    footer .disclaimer {
+        width: 75%;
+    }
+    
+    footer .row .col {
+        margin: 0 auto;
+    }
+}
+
+/* --------------------------------*/
+/* 0 - 480 px width                */
+/* --------------------------------*/
+
 @media only screen and (max-width: 480px) {
     * {
         box-sizing: border-box;
@@ -65,6 +570,10 @@
     /* Header */
     /* ------------------------------------- */
 
+    header {
+        background-attachment: none;
+    }
+    
     header h1 {
         width: 125%;
     }

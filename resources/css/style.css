@@ -168,7 +168,7 @@ header {
     height: 100vh;
     background-attachment: fixed;
     
-    min-height: 700px;
+    min-height: 400px;
 }
 
 .hero-text-box {

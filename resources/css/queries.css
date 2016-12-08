@@ -571,13 +571,7 @@
     /* ------------------------------------- */
 
     header {
-        background-attachment: none;
-        
-        background-size: contain;
-        top: 0;
-        left: 0;
-        min-width: 100%;
-        min-height: 100%;
+        background-attachment: scroll;
     }
     
     header h1 {

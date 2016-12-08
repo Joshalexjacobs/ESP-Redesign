@@ -51,6 +51,8 @@ h1 {
     font-size: 200%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    
+    padding-top: 50px;
 }
 
 h2 {
